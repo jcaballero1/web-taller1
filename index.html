@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Clinica para Mascotas</title>
+  </head>
+  <body>
+      
+
+    <div class="container">
+        <img src="imgs/prin.jpeg" class="img-fluid" alt="Responsive image">
+        <ul class="nav nav-tabs " >
+            <li class="nav-item">
+              <a class="nav-link active"  href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link "  href="#">Listar Propetario</a>
+            </li>  
+            <li class="nav-item">
+                <a class="nav-link "   href="#">Agregar Mascota</a>
+            </li>
+          </ul>  
+    <div class="row">
+        <div class="col">
+        <table id="idTabla" class="table"  >
+            <thead>
+                <tr>
+                    <td>
+                        nombre
+                    </td>
+                    <td>
+                        apellidos
+                    </td>
+                    <td>
+                        direccion
+                    </td>
+                    <td>
+                        telefono
+                    </td>
+                    <td>
+                        opccion
+                    </td>
+                </tr>
+            </thead>
+            
+        </table>
+    </div >
+    <div class="col">
+        <div class="auto"   >
+            <div id="iddivp" >
+            <form id="idFormPropietario">
+         
+
+                <input class="val form-control" value="" type="text" placeholder="nombres">
+                <br>
+                <input class="val form-control" value="" type="text" placeholder="apellidos">
+                <br>
+                <input class="val form-control" value="" type="text" placeholder="direccion">
+                <br>
+                <input class="val form-control" value="" type="text" placeholder="telefono">
+                <br>
+             
+            </form>
+            <button id="idAgregar" type="button" class="btn btn-primary">agregar</button>
+            </div>
+            <div  id="iddivf" class="container" style="display:none" >
+                <form id="idFormmascota">
+                    <div class="form-row">
+                      <div class="form-group col-md-12">
+                          <label id="idlabel" for="inputEmail4" >propetario: XXXXXXXXXX</label>
+                      </div>
+                          <div class="form-group col-md-6">
+                              <label for="inputFecha4">Nombre</label>
+                              <input type="Nombre" class="dataa form-control" id="inputNombre4" placeholder="Nombre">
+                         </div> 
+                       
+                    
+                      <div class="form-group col-md-6">
+                        <label for="inputTipo">Tipo</label>
+                        <select id="inputTipo" class="dataa form-control">
+                          <option selected>-Seleccione una opción-</option>
+                          <option>Perro</option>
+                          <option>Gato</option>
+                          <option>Anfibio</option>
+                          <option>Dinosaurio</option>
+                        </select>
+                      </div>
+                      <div class='col-md-6'>
+                        <div class="form-group">
+                          <label for="inputFecha4">Fecha</label>
+                            <div class='input-group date' id='datetimepicker7'>
+                                <input type='text' class="dataa form-control" />
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-calendar"></span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <button id="idbtnAgregar" type="submit" class="btn btn-primary">Agregar</button>
+                    <button id="idbtnCancelar" type="submit" class="btn btn-primary">Cancelar</button>
+                  </form>
+        
+            </div>
+        </div>
+    </div>
+    </div>
+  
+
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>    
+    <script src="ScripJS.js" ></script>
+</body>
+</html>
